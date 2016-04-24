@@ -17,8 +17,8 @@ class MenuAction(implicit val bindingModule: BindingModule) extends AbstractCyAc
     val jframe = inject [JFrame]
     
     val words = List("Hello", "Cytoscape", "Scala", "World!")
-		JOptionPane.showMessageDialog(jframe, words.mkString(" "))
-	}
+    JOptionPane.showMessageDialog(jframe, words.mkString(" "))
+  }
   
   
 }

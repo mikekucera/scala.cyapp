@@ -31,8 +31,8 @@ class CyActivator extends ScalaCyActivator {
     
     
     // Create services
-		val action = new MenuAction
-		registerAllServices(bc, action, new Properties)
+    val action = new MenuAction
+    registerAllServices(bc, action, new Properties)
   }
   
 }
